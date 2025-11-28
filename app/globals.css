@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-reflex-green: #7ED957;
+  --color-reflex-blue: #00A9CE;
+  --color-reflex-dark: #2B3E50;
+
+  --font-display: var(--font-montserrat);
+  --font-body: var(--font-inter);
+
+  --background-image-gradient-reflex: linear-gradient(90deg, #00A9CE 0%, #7ED957 100%);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #2B3E50;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-body), sans-serif;
+}
